@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS Test 1", "SSIS Test 1\SSIS Test 1.dtproj", "{2D4EAED5-2C90-46D3-89B5-0BFABCAA822C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Azure|Default = Azure|Default
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D4EAED5-2C90-46D3-89B5-0BFABCAA822C}.Azure|Default.ActiveCfg = Azure
+		{2D4EAED5-2C90-46D3-89B5-0BFABCAA822C}.Azure|Default.Build.0 = Azure
+		{2D4EAED5-2C90-46D3-89B5-0BFABCAA822C}.Development|Default.ActiveCfg = Development
+		{2D4EAED5-2C90-46D3-89B5-0BFABCAA822C}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C473F20-94E7-47E2-A0CF-6D79D7F97D71}
+	EndGlobalSection
+EndGlobal
