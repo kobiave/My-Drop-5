@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">ARK-LT</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXyK7YwhvL0aykfJcyNUGIwAAAAACAAAAAAADZgAAwAAAABAAAADCB6IKUbY5rldixIAbhmmVAAAAAASAAACgAAAAEAAAALZHN8YEAJWpsCn3DooK7tCIAAAARHHW2+Pe2g9xY5YonjTPAr//xrUOaEUUKc015Tdg1NAE5ZNGe/LlzUiqZZr6k/EvnKIjUZZQtRo2fhnNrCNBbLgrjxRq9Z5D4jxF+OTUxrQLKdwwmDdyGdXZd234lCNZib0M+tCt2nzc3MOWZiCA0UW4CKG5brSm1LrxYyH2kK/eOXlnd+GU4RQAAABts0iCrXFDNNY3bnvT6idziKxxNQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA41EIghbeeU2jketDNfzAXgAAAAACAAAAAAADZgAAwAAAABAAAABIsrlXbwiFM9Qhj8FXy/FZAAAAAASAAACgAAAAEAAAALyQaqTvXIJqw7/Fp7gm9L2IAAAAd/Nb6tdQYdliM92+tCnTjl49tHFet1NcG6QB8MlPZhQyA+riySeO3crLqRDV4DIoA4nnlE3TF1odJ7MKb+EkiKrUanN0yO5v2HxhefI3+LOUsiR4rb9Yym8YFtPuVBIdzOPtC9K8XSvubrTPXrbQTFIo0FbZCmS6aoWdoSHeLAVhGsRE/FW3lRQAAACYO4UiKb8PlGsTeMvTI5BUg6hpJw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -163,16 +163,31 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">5</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">6</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{F9F18352-370D-4B43-983F-D95D87122676}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{FD7B7478-B0FF-4617-98EA-3954E25AF6F7}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
+                <SSIS:Parameter SSIS:Name="TestSTR">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{2BCB4CB7-CAD4-4397-8310-E441008507E5}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.sms-oracle.AdventureWorksLT2017.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
