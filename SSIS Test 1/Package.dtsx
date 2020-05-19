@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{FD7B7478-B0FF-4617-98EA-3954E25AF6F7}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{C396924C-6349-458E-A7B3-D1BA33CE8A54}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -493,6 +493,18 @@
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\File Task"
+      DTS:CreationName="Microsoft.FileSystemTask"
+      DTS:Description="File System Task"
+      DTS:DTSID="{81666B7A-C71E-47F0-8196-79FDBD3F2C50}"
+      DTS:ExecutableType="Microsoft.FileSystemTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="File Task"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData />
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -514,9 +526,13 @@
           Text="All details inside DataFlow"
           ParentId="Package"
           FontInfo="{assembly:Null}"
-          Size="167,60"
+          Size="167,40"
           Id="e8c96815-98b3-42cb-af17-e69c02c82d7e"
           TopLeft="552,130" />
+        <NodeLayout
+          Size="120,42"
+          Id="Package\File Task"
+          TopLeft="435,197" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
